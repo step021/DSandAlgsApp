@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 
 export const NavBarContainer = styled.header`
-    background-color: #252525;
+    background-color: #050505;
     color: white;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -18,32 +18,19 @@ export const NavBarContainer = styled.header`
     position: sticky;
     z-index: 500;
     transition: background-color 0.3s ease, color 0.3s ease;
-    body.light-mode & {
-        background-color: rgba(255, 255, 255, 0.8);
-        color: black;
-    }
 `;
 
 export const NavBarTitle = styled.h1`
     margin: 0;
     font-size: 1.5rem;
     &:hover {
-        color: #902bf5;  
+        color: #f361f5;  
     }
     @media (max-width: 600px) {
         font-size: 1rem;
     }
-    body.light-mode & {
-        &:hover {
-            color: #a37cf0;  
-        }
-    }
 `;
 
-export const MenuandTheme = styled.div`
-    display: flex;
-    align-items: center;
-`;
 
 
 export const MenuButton = styled.button`
@@ -54,17 +41,12 @@ export const MenuButton = styled.button`
     margin-left: 50px;
     cursor: pointer;
     &:hover {
-        color: #902bf5; 
+        color: #f361f5; 
     }
     @media (max-width: 400px) {
         margin-left: 20px;
         font-size: 1.9rem;
     }
-    body.light-mode & {
-        color: black;
-        &:hover {
-            color: #a37cf0; 
-        }
 `;
 
 export const NavBarMenu = styled.div`
@@ -79,9 +61,6 @@ export const NavBarMenu = styled.div`
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    body.light-mode & {
-        background-color: rgba(255, 255, 255, 0.8);
-    }
 `;
 
 export const NavBarMenuItem = styled.a`
@@ -93,12 +72,6 @@ export const NavBarMenuItem = styled.a`
     text-align: left;
     cursor: pointer;
     &:hover {
-        color: #902bf5;
-    }
-    body.light-mode & {
-        color: black;
-        &:hover {
-            color: #a37cf0;
-        }
+        color: #f361f5; 
     }
 `;
