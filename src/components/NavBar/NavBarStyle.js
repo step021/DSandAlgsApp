@@ -57,7 +57,7 @@ export const NavBarMenu = styled.div`
     left: 0;
     width: 100%;
     padding-bottom: 20px; /* Add padding at the bottom */
-    background-color: rgba(18, 18, 18, 0.8);
+    background-color: #151515;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);

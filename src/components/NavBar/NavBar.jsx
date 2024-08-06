@@ -15,7 +15,7 @@ function NavBar() {
             </MenuButton>
             <NavBarMenu $menuOpen={menuOpen}>
                 <NavBarMenuItem href="/">Home</NavBarMenuItem>
-                <NavBarMenuItem href="#about">Python Basics</NavBarMenuItem>
+                <NavBarMenuItem href="/python">Python Basics</NavBarMenuItem>
                 <NavBarMenuItem href="#services">OOP Basics</NavBarMenuItem>
                 <NavBarMenuItem href="#contact">Algorithm Analysis</NavBarMenuItem>
                 <NavBarMenuItem href="#recursion">Recursion</NavBarMenuItem>
